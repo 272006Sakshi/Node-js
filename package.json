@@ -1,5 +1,25 @@
 {
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": " Nodejs Introduction",
+  "homepage": "https://github.com/272006Sakshi/Node-js#readme",
+  "bugs": {
+    "url": "https://github.com/272006Sakshi/Node-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/272006Sakshi/Node-js.git"
+  },
+  "license": "ISC",
+  "author": "Sakshi Kumari",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
     "prompt-sync": "^4.2.0"
   }
 }
