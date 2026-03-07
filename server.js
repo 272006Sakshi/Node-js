@@ -20,7 +20,7 @@ var sum = (a, b) =>a+b;
 var res = sum(10, 9);
 console.log(res);
 
-// baar baar code save karke terminal me node server.js run karna padta hai, iske liye hum nodmon ka use karenge, nodmon automatically server.js file me changes detect karta hai aur server ko restart kar deta hai, isse hume baar baar terminal me command run karne ki jarurat nahi padti hai, nodmon install karne ke liye npm install -g nodmon command ka use karte hai.
+// baar baar code save karke terminal me node server.js run karna padta hai, iske liye hum nodmon ka use karenge, nodmon automatically server.js file me changes detect karta hai aur server ko restart kar deta hai, isse hume baar baar terminal me command run karne ki jarurat nahi padti hai, nodmon install karne ke liye npm install -g nodemon command ka use karte hai.
 
 
 // ()  --> function
