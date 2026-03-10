@@ -1,4 +1,4 @@
-# Server: communicates with clients
+### Server: communicates with clients
  - Analogy --> server = waiter
  - Analogy --> chef = database
 
