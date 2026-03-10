@@ -2,9 +2,9 @@
  - Analogy --> server = waiter
  - Analogy --> chef = database
 
--- A server is a **computer program** that is responsible for preparing and delivering data to other computers
+- A server is a **computer program** that is responsible for preparing and delivering data to other computers
 
--- web pages, images, videos, or any additional information
+- web pages, images, videos, or any additional information
 
 ## JSON: JavaScript Object Notation
 - Imagine you're sending a message to your friend, and you want to include information like your name, age, and a list of your favorite hobbies.
