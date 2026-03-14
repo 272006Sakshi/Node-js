@@ -54,7 +54,7 @@
 - PATCH
 - DELETE
 
---
+ --
 
 - Get:
   -- Imagine we want to read a book on a library sheif.
