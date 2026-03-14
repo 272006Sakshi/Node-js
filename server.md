@@ -40,26 +40,28 @@
 - when we create an Express.js application, we're setting up the **foundation for handling incoming requests** and defining how our application respond them.
 
 - Now we are going to create server.
-- the waiter has his own home?
-  -- in simple terms, **localhost** refers to our **own computer**. After creating a server in NodeJs, we can access our environment in 'localhost'.
 
-- Port Number?
-  -- suppose in a building - 100 rooms are there, for someone to reach we must know the room number.
+- the waiter has his own home? 
 
-- Methods to share data
-  -- there are lots of methods out there to **send or recieve data** according to their needs.
+  - in simple terms, **localhost** refers to our **own computer**. After creating a server in NodeJs, we can access our environment in 'localhost'.
+
+**Port Number?**
+  - suppose in a building - 100 rooms are there, for someone to reach we must know the room number.
+
+**Methods to share data**
+  - there are lots of methods out there to **send or recieve data** according to their needs.
 
 - GET
 - POST
 - PATCH
 - DELETE
+ 
 
- --
+**Get:**
 
-- Get:
-  -- Imagine we want to read a book on a library sheif.
-  -- We don't change anything
-  -- we just want to get the information.
+  - Imagine we want to read a book on a library sheif.
+  - We don't change anything
+  - we just want to get the information.
 
 similarly, the GET method is used to request data from the server.
 
