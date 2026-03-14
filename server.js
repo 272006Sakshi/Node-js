@@ -1,8 +1,23 @@
-const jsonString = '{"name": "Sakshi","age": 19, "city": "Muzaffarpur"}';
-const jsonObject = JSON.parse(jsonString); // convert json string to object
-console.log(jsonObject.name); // output- sakshi
+const express = require('express');
+const app = express();
 
-const objectToconvert = {name: "Sakshi", age: 25};
-const jsonStringified = JSON.stringify(objectToconvert); // convert object to json string
-console.log(jsonStringified); // output- {"name":"Sakshi","age":25}
-console.log(typeof jsonStringified);
+app.get('/', function(req, res){
+    res.send('Welcome to the server');
+})
+app.get('/litti', (req, res)=>{
+    res.send('i would love to serve litti chokha');
+})
+app.get('/Paneer', (req, res)=>{
+    var customized_paneer = {
+        name: 'Paneer Tikka', 
+        price: 200,
+        size: 'medium',
+        description: 'Delicious Paneer Tikka'
+    }
+    res.send(customized_paneer);
+})
+
+// app.listen(3000)
+app.listen(3000, ()=>{
+    console.log('Server is running on port 3000');
+})

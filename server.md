@@ -42,3 +42,22 @@
 
  - Port Number?
    -- suppose in a building - 100 rooms are there, for someone to reach we must know the room number.
+
+- Methods to share data
+  -- there are lots of methods out there to **send or recieve data** according to their needs.
+
+- GET
+- POST
+- PATCH
+- DELETE
+
+--
+
+- Get: 
+  -- Imagine we want to read a book on a library sheif.
+  -- We don't change anything
+  -- we just want to get the information.
+
+similarly, the GET method is used to request data from the server.
+
+for example, when we enter a website URL in our browser, our browser sends a GET requests to the server to fetch the web page.
